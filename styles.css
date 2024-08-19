@@ -1,0 +1,10 @@
+body { font-family: Arial, sans-serif; }
+.slot { margin: 10px; padding: 10px; border: 1px solid #ccc; }
+.slot-header { font-weight: bold; }
+.sub-slot { margin: 5px; padding: 5px; border: 1px solid #ccc; display: inline-block; cursor: pointer; position: relative; }
+.sub-slot.booked { background-color: #ffcccc; }
+.meet-link { display: block; margin-top: 5px; color: blue; text-decoration: underline; cursor: pointer; }
+#bookingPopup { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: white; padding: 20px; border: 1px solid #ccc; }
+#bookingPopup input { margin: 5px; display: block; }
+#bookedSlots { margin-top: 20px; }
+.booked-slot { border: 1px solid #ccc; padding: 10px; margin: 5px; }

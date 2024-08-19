@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeting Scheduler</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Schedule a Meeting</h1>
+  <div id="slots"></div>
+
+  <div id="bookingPopup">
+    <h2>Book Slot</h2>
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="email" id="email" placeholder="Your Email">
+    <button onclick="bookSlot()">Book</button>
+    <button onclick="closePopup()">Cancel</button>
+  </div>
+
+  <h2>Booked Slots</h2>
+  <div id="bookedSlots"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
